@@ -1,30 +1,53 @@
-# statistical_discrimination
+# Statistical discrimination
 
-TODO(b/340257533): Add a description for your new project, explain what is
-being released here, etc... Additional, the following sections are normally
-expected for all releases. Feel free to add additional sections if appropriate
-for your project.
-
-## Installation
-
-Write instructions for how the user should install your code. The instructions
-should ideally be valid when copy-pasted. You can combine this with the Usage
-section if there's no separate installation step.
+This repository contains the code accompanying the publication **Perceptual
+interventions ameliorate statistical discrimination in learning agents**,
+published in the Proceedings of the National Academy of Sciences, 2024.
 
 ## Usage
 
-Write example usage of your code. The instructions should ideally be valid when
-copy-pasted, and will be used by your technical reviewer to verify that your
-package functions correctly.
+### Figures and Supporting Information data
+
+You can load the dataset and the code used to produce the figures in the
+research article using Colab:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-deepmind/statistical_discrimination/blob/main/notebooks/data_analysis.ipynb)
+
+The full data used in the paper is at
+https://storage.googleapis.com/statistical_discrimination/data.zip
+
+### Environment configuration
+
+The environment used is from
+[Melting Pot](https://github.com/google-deepmind/meltingpot)
+The specific configuration with custom avatars and perceptual interventions
+is available in the Colab:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-deepmind/statistical_discrimination/blob/main/notebooks/environment.ipynb).
+Examples for configurations using perceptual interventions and without them are
+given.
+
+Clone this repository with
+
+```sh
+git clone https://github.com/google-deepmind/statistical_discrimination.git
+```
 
 ## Citing this work
 
-Add citation details here, usually a pastable BibTeX snippet:
-
 ```latex
-@article{publicationname,
-      title={Publication Name},
-      author={Author One and Author Two and Author Three},
+@article{duenez2024perceptual,
+      title={Perceptual interventions ameliorate statistical discrimination in
+             learning agents},
+      author={Du\'e\~nez-Guzm\'an, EA AND Comanescu, R AND Mao, Y AND McKee, KR
+              AND Coppin, B AND Sadedin, S AND Chiappa, S AND Vezhnevets, AS AND
+              Bakker, MA AND Bachrach, Y AND Isaac, W AND Tuyls, K AND
+              Leibo, JZ},
+      journal={Proceedings of the National Academy of Sciences},
+      volume={XXX},
+      number={XX},
+      pages={X},
+      doi={10.1073/pnas.XXX},
+      URL={https://www.pnas.org/doi/abs/10.1073/pnas.XXX},
+      publisher={National Academy of Sciences}
       year={2024},
 }
 ```
